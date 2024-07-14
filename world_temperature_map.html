@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb0f53debee21e9ea5f9321412f6a384 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bb0f53debee21e9ea5f9321412f6a384" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bb0f53debee21e9ea5f9321412f6a384 = L.map(
+                "map_bb0f53debee21e9ea5f9321412f6a384",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a201290aa18895ea3f5b963d06bcb543 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a201290aa18895ea3f5b963d06bcb543.addTo(map_bb0f53debee21e9ea5f9321412f6a384);
+        
+    
+            var marker_cluster_2d08440da17533b8fcf14bebb3e3aac2 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_14ad13b2645ee79b155e5659edddb3bb = L.marker(
+                [-24.7761086, 134.755],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_80fee3bbb7d1ce0f134799f83e0595ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3354fa0fe9198da4d96c7b9c3b920e8 = $(`<div id="html_e3354fa0fe9198da4d96c7b9c3b920e8" style="width: 100.0%; height: 100.0%;">Ülke: Australia<br>Sıcaklık: 0.14°C</div>`)[0];
+                popup_80fee3bbb7d1ce0f134799f83e0595ac.setContent(html_e3354fa0fe9198da4d96c7b9c3b920e8);
+            
+        
+
+        marker_14ad13b2645ee79b155e5659edddb3bb.bindPopup(popup_80fee3bbb7d1ce0f134799f83e0595ac)
+        ;
+
+        
+    
+    
+            var marker_a5caf140e735231c87fe010c6884ac8a = L.marker(
+                [-10.3333333, -53.2],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_5c0f7689f8147619e9dcae9d3d9c3ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d917471942e18f37cf396d2ea0c2a556 = $(`<div id="html_d917471942e18f37cf396d2ea0c2a556" style="width: 100.0%; height: 100.0%;">Ülke: Brazil<br>Sıcaklık: 0.48°C</div>`)[0];
+                popup_5c0f7689f8147619e9dcae9d3d9c3ed3.setContent(html_d917471942e18f37cf396d2ea0c2a556);
+            
+        
+
+        marker_a5caf140e735231c87fe010c6884ac8a.bindPopup(popup_5c0f7689f8147619e9dcae9d3d9c3ed3)
+        ;
+
+        
+    
+    
+            var marker_179f6e97bbf26cb7e73a60277ffcb8d6 = L.marker(
+                [61.0666922, -107.991707],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_a25b97228e19af5efeb995b7691f2db0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17bd90e386645194f7f894f25183b8b8 = $(`<div id="html_17bd90e386645194f7f894f25183b8b8" style="width: 100.0%; height: 100.0%;">Ülke: Canada<br>Sıcaklık: 0.27°C</div>`)[0];
+                popup_a25b97228e19af5efeb995b7691f2db0.setContent(html_17bd90e386645194f7f894f25183b8b8);
+            
+        
+
+        marker_179f6e97bbf26cb7e73a60277ffcb8d6.bindPopup(popup_a25b97228e19af5efeb995b7691f2db0)
+        ;
+
+        
+    
+    
+            var marker_0de11db4f3ad9a1ecd47513f0c632a32 = L.marker(
+                [35.000074, 104.999927],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_fd783fc5849340a71adbf11f22076636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42b6761209bb3ce496fb0a29ad75ec4a = $(`<div id="html_42b6761209bb3ce496fb0a29ad75ec4a" style="width: 100.0%; height: 100.0%;">Ülke: China<br>Sıcaklık: 0.24°C</div>`)[0];
+                popup_fd783fc5849340a71adbf11f22076636.setContent(html_42b6761209bb3ce496fb0a29ad75ec4a);
+            
+        
+
+        marker_0de11db4f3ad9a1ecd47513f0c632a32.bindPopup(popup_fd783fc5849340a71adbf11f22076636)
+        ;
+
+        
+    
+    
+            var marker_91b6380bd63548d6a8a7e93d19e92867 = L.marker(
+                [42.6384261, 12.674297],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_1f48dd64694d37806e2c215f07666449 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_533274d719e3657492debe692c97eb6b = $(`<div id="html_533274d719e3657492debe692c97eb6b" style="width: 100.0%; height: 100.0%;">Ülke: Italy<br>Sıcaklık: 0.94°C</div>`)[0];
+                popup_1f48dd64694d37806e2c215f07666449.setContent(html_533274d719e3657492debe692c97eb6b);
+            
+        
+
+        marker_91b6380bd63548d6a8a7e93d19e92867.bindPopup(popup_1f48dd64694d37806e2c215f07666449)
+        ;
+
+        
+    
+    
+            var marker_43ac6598e1d8c4459a839f799c2829a8 = L.marker(
+                [36.5748441, 139.2394179],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_d398f359f395cfa5daacecc95834ce02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_666ef4ae8335d069ef1e82683af39a1d = $(`<div id="html_666ef4ae8335d069ef1e82683af39a1d" style="width: 100.0%; height: 100.0%;">Ülke: Japan<br>Sıcaklık: 0.13°C</div>`)[0];
+                popup_d398f359f395cfa5daacecc95834ce02.setContent(html_666ef4ae8335d069ef1e82683af39a1d);
+            
+        
+
+        marker_43ac6598e1d8c4459a839f799c2829a8.bindPopup(popup_d398f359f395cfa5daacecc95834ce02)
+        ;
+
+        
+    
+    
+            var marker_0210bcfee33d816396ed930ecd0b150f = L.marker(
+                [36.638392, 127.6961188],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_e5a288e587d6da7352e0867a5ae71ad3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_412bf82b2c112fddab3c178aa7260363 = $(`<div id="html_412bf82b2c112fddab3c178aa7260363" style="width: 100.0%; height: 100.0%;">Ülke: South Korea<br>Sıcaklık: 0.1°C</div>`)[0];
+                popup_e5a288e587d6da7352e0867a5ae71ad3.setContent(html_412bf82b2c112fddab3c178aa7260363);
+            
+        
+
+        marker_0210bcfee33d816396ed930ecd0b150f.bindPopup(popup_e5a288e587d6da7352e0867a5ae71ad3)
+        ;
+
+        
+    
+    
+            var marker_77c9ea5db16cd138a69f0108265f8f03 = L.marker(
+                [39.3260685, -4.8379791],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_e51b0c01e0551355ef500111887f7cb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_156fb36c8576945f56d1c2660b5572b3 = $(`<div id="html_156fb36c8576945f56d1c2660b5572b3" style="width: 100.0%; height: 100.0%;">Ülke: Spain<br>Sıcaklık: 0.54°C</div>`)[0];
+                popup_e51b0c01e0551355ef500111887f7cb9.setContent(html_156fb36c8576945f56d1c2660b5572b3);
+            
+        
+
+        marker_77c9ea5db16cd138a69f0108265f8f03.bindPopup(popup_e51b0c01e0551355ef500111887f7cb9)
+        ;
+
+        
+    
+    
+            var marker_0f49a86c9521cc364cb058bcb07ba902 = L.marker(
+                [59.6749712, 14.5208584],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_f6932819ec833b184fa93ecff28478ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9d7442acc1acc642545a3152c3bc92f = $(`<div id="html_a9d7442acc1acc642545a3152c3bc92f" style="width: 100.0%; height: 100.0%;">Ülke: Sweden<br>Sıcaklık: 0.03°C</div>`)[0];
+                popup_f6932819ec833b184fa93ecff28478ee.setContent(html_a9d7442acc1acc642545a3152c3bc92f);
+            
+        
+
+        marker_0f49a86c9521cc364cb058bcb07ba902.bindPopup(popup_f6932819ec833b184fa93ecff28478ee)
+        ;
+
+        
+    
+    
+            var marker_216370f0d6134f8fec89f83a5e91ea9b = L.marker(
+                [23.5983227, 120.83537694479215],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_4890fa756c9012341f442a284a502165 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a778e0de18b7f20f9d1b1727584189c = $(`<div id="html_8a778e0de18b7f20f9d1b1727584189c" style="width: 100.0%; height: 100.0%;">Ülke: Taiwan<br>Sıcaklık: 0.6°C</div>`)[0];
+                popup_4890fa756c9012341f442a284a502165.setContent(html_8a778e0de18b7f20f9d1b1727584189c);
+            
+        
+
+        marker_216370f0d6134f8fec89f83a5e91ea9b.bindPopup(popup_4890fa756c9012341f442a284a502165)
+        ;
+
+        
+    
+    
+            var marker_6521e9f018f957516447faa377a9de7c = L.marker(
+                [7.4931858, 124.724704],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_3812d72ade82322f09d8e843bfe50c04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f5cfe4f78ed85c146d5f8ed249a4f6a = $(`<div id="html_9f5cfe4f78ed85c146d5f8ed249a4f6a" style="width: 100.0%; height: 100.0%;">Ülke: Thailand<br>Sıcaklık: 0.47°C</div>`)[0];
+                popup_3812d72ade82322f09d8e843bfe50c04.setContent(html_9f5cfe4f78ed85c146d5f8ed249a4f6a);
+            
+        
+
+        marker_6521e9f018f957516447faa377a9de7c.bindPopup(popup_3812d72ade82322f09d8e843bfe50c04)
+        ;
+
+        
+    
+    
+            var marker_cf4f7cbd36f6542a1557e05510d94b12 = L.marker(
+                [54.7023545, -3.2765753],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_7fcee409d18455666a3a683f57aba284 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75b85e72234b5fe5be42c080fb2d1f27 = $(`<div id="html_75b85e72234b5fe5be42c080fb2d1f27" style="width: 100.0%; height: 100.0%;">Ülke: United Kingdom<br>Sıcaklık: 0.07°C</div>`)[0];
+                popup_7fcee409d18455666a3a683f57aba284.setContent(html_75b85e72234b5fe5be42c080fb2d1f27);
+            
+        
+
+        marker_cf4f7cbd36f6542a1557e05510d94b12.bindPopup(popup_7fcee409d18455666a3a683f57aba284)
+        ;
+
+        
+    
+    
+            var marker_f9e0ae8bf6472860e8ed83e6b7687cfe = L.marker(
+                [39.7837304, -100.445882],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_0b4eb5bf2132c8f53d2850427706ce3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c24981457c10a4c86684b681b40ea5e = $(`<div id="html_5c24981457c10a4c86684b681b40ea5e" style="width: 100.0%; height: 100.0%;">Ülke: United States<br>Sıcaklık: 0.14°C</div>`)[0];
+                popup_0b4eb5bf2132c8f53d2850427706ce3b.setContent(html_5c24981457c10a4c86684b681b40ea5e);
+            
+        
+
+        marker_f9e0ae8bf6472860e8ed83e6b7687cfe.bindPopup(popup_0b4eb5bf2132c8f53d2850427706ce3b)
+        ;
+
+        
+    
+    
+            var marker_8f775ff682e748309edfe0bc4d48f659 = L.marker(
+                [0.3596739, 32.7525748],
+                {}
+            ).addTo(marker_cluster_2d08440da17533b8fcf14bebb3e3aac2);
+        
+    
+        var popup_19fdfd2a2260a61129dc3aafebb2734f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a23cda58a577e957494f5a3d74f7d52 = $(`<div id="html_0a23cda58a577e957494f5a3d74f7d52" style="width: 100.0%; height: 100.0%;">Ülke: Total<br>Sıcaklık: 0.19°C</div>`)[0];
+                popup_19fdfd2a2260a61129dc3aafebb2734f.setContent(html_0a23cda58a577e957494f5a3d74f7d52);
+            
+        
+
+        marker_8f775ff682e748309edfe0bc4d48f659.bindPopup(popup_19fdfd2a2260a61129dc3aafebb2734f)
+        ;
+
+        
+    
+    
+            marker_cluster_2d08440da17533b8fcf14bebb3e3aac2.addTo(map_bb0f53debee21e9ea5f9321412f6a384);
+        
+</script>
+</html>
