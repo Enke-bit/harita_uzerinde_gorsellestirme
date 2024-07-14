@@ -6,18 +6,10 @@ Bu proje, dünya ülkelerinin belirli tarihlerdeki sıcaklık verilerini interak
 
 Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
-1. Bu repo'yu klonlayın:
-    ```bash
-    git clone https://github.com/kullanici-adi/sicaklik-harita.git
-    ```
-
-2. Gerekli Python kütüphanelerini yükleyin:
+ Gerekli Python kütüphanelerini yükleyin:
     ```bash
     pip install pandas geopy folium
     ```
-
-3. Veri setini `data` klasörüne yerleştirin:
-    - `deaths-temperature-gasparrini new.csv`
 
 ## Kullanım
 
